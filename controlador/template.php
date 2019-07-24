@@ -4,6 +4,6 @@
 		
 		public function template(){
 
-			include "vistas/template.php"
+			include "vistas/template.php";
 		}
 	}
