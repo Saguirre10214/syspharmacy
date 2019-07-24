@@ -7,7 +7,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>AdminLTE 2 | Starter</title>
+  <title>Area de Salud</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <link rel="stylesheet" href="vistas/bower_components/bootstrap/dist/css/bootstrap.min.css">
@@ -187,8 +187,8 @@ desired effect
                 <img src="vistas/dist/img/user2-160x161.jpg" class="img-circle" alt="User Image">
 
                 <p>
-                  Alexander Pierce - Web Developer
-                  <small>Member since Nov. 2012</small>
+                  Sergio Aguirre
+                  <small>julio de 2019</small>
                 </p>
               </li>
               <!-- Menu Body -->
@@ -237,7 +237,7 @@ desired effect
           <img src="vistas/dist/img/user2-160x161.jpg" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-          <p>Admin</p>
+          <p>Sergio Aguirre</p>
           <!-- Status -->
           <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
         </div>
@@ -259,8 +259,10 @@ desired effect
               </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="#">Admin</a></li>
-            <li><a href="#">Admin2</a></li>
+                <li><a href="#" class="fa  fa-user">Admin</a></li>
+              <ul>
+                <li><a href="#" class="fa fa-user-plus">Admin2</a></li>
+              </ul>
           </ul>
         </li>
 
@@ -272,8 +274,10 @@ desired effect
               </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="#">Liquido</a></li>
-            <li><a href="#">Tableta</a></li>
+              <li><a href="#">Liquido</a></li>
+            <ul>
+              <li><a href="#">Tableta</a></li>
+            </ul>
           </ul>
         </li>
 
@@ -286,7 +290,9 @@ desired effect
           </a>
           <ul class="treeview-menu">
             <li><a href="#">Farmacia</a></li>
-            <li><a href="#">Bodega</a></li>
+            <ul>
+             <li><a href="#">Bodega</a></li>
+           </ul>
           </ul>
         </li>
       </ul>
@@ -300,8 +306,8 @@ desired effect
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Page Header
-        <small>Optional description</small>
+        FORMULARIOS
+        <small>CENTRO DE SALUD</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
